@@ -1,0 +1,114 @@
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+# Byte compiled python modules.
+*.pyc
+
+# =========================
+# Operating System Files
+# =========================
+
+# OSX
+# =========================
+
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+*.png
+*.jpeg
+
+# C
+*.exe
+*.o
+*.so
+*.a
+*.x
+
+# swig auto-generated files
+*_wrap.c
+kynetix/solvers/kmc_plugins/plugin_backends/kmc_functions.py
+c++/*.py
+*_wrap.cxx
+
+# unittest files
+c++/unittest/*.xml
+
+# vim temp files
+*.swp
+*un~
+*swo
+
+# log file
+*.log
+
+# ctags file.
+tags
+
+# data file.
+*.pkl
+init_energy.csv
+out_energy.csv
+
+# kmc auto-generatied files.
+auto_*
+*.gif
+*.png
+
+# auto-generated files in examples.
+examples/**/trajplots/
+examples/**/plot_*
+examples/**/traj/
+examples/**/input_*_out.py
+
+# kmc_plot scripts
+plot_coverages.py
+plot_frequencies.py
+plot_scatters*
+!scripts/kmc_plot/plot_*
+
+# temp files.
+trajplots.tgz
+temp/
+
+# profiling files.
+*.prof
+
+# build directory
+build/
+
+# coverage report
+.coverage
+
+*.egg-info
+dist
+
